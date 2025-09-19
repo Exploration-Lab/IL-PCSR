@@ -1,4 +1,4 @@
-# Legal Information Processing with Case Retrieval (ILPCR)
+# IL-PCSR: Legal Corpus for Prior Case and Statute Retrieval
 
 This project implements a sophisticated legal case retrieval system that combines traditional information retrieval (BM25), graph neural networks, and large language models for effective precedent and section retrieval.
 
@@ -151,9 +151,9 @@ Initial retrieval using BM25 algorithm for both precedents and sections.
 - Second stage: Refined ranking and relationship analysis
 
 
-<div align="center">
-  <img src="Picture1.png" alt="LLM Reranking Process" width="60%"/>
-</div>
+<p align="center">
+  <img src="LLM_PIPELINE.png" alt="Description" width="800"/>
+</p>
 
 The above diagram illustrates our two-stage LLM reranking process, where the system uses a sophisticated prompting strategy to refine the initial rankings from BM25 and GNN models.
 
