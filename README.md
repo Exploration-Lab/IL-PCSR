@@ -1,8 +1,7 @@
 # IL-PCSR: Legal Corpus for Prior Case and Statute Retrieval
 
-This project implements a sophisticated legal case retrieval system that combines traditional information retrieval (BM25), graph neural networks, and large language models for effective precedent and section retrieval.
+[**IL-PCSR:**](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR) A dataset of Indian legal case **queries** annotated with relevant **statutes** and **precedents**, plus candidate pools of statutory provisions and precedent judgments for retrieval research.
 
-[Insert System Architecture Image Here]
 
 ## Project Overview
 
