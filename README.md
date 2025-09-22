@@ -124,17 +124,7 @@ python secs_secong_stage_prompting.py
 ```
 
 ## Data Format
-
-### Input Data Structure
-- `queries.json`: Contains the legal queries
-- `precedents.json`: Contains the legal precedents
-- `sections.json`: Contains the legal sections
-- `metadata.json`: Contains metadata about the dataset
-
-### Generated Data
-- `precedents_summaries.json`: Generated summaries for precedents
-- `queries_summaries.json`: Generated summaries for queries
-- `queries_summaries_secs.json`: Generated summaries for sections
+The dataset is hosted on [HuggingFace](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR). You can find all the details there.
 
 ## Model Components
 
@@ -156,6 +146,21 @@ Initial retrieval using BM25 algorithm for both precedents and sections.
 </p>
 
 The above diagram illustrates our two-stage LLM reranking process, where the system uses a sophisticated prompting strategy to refine the initial rankings from BM25 and GNN models.
+
+## Citation
+
+```bibtex
+@inproceedings{il-pcsr2025,
+  title = "IL-PCSR: Legal Corpus for Prior Case and Statute Retrieval",
+  author = "Paul, Shounak and Ghumare, Dhananjay and Goyal, Pawan and Ghosh, Saptarshi and Modi, Ashutosh"
+  booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  month = nov,
+  year = "2025",
+  address = "Suzhou, China",
+  publisher = "Association for Computational Linguistics",
+  note = "To Appear"
+}
+```
 
 
 
