@@ -2,6 +2,9 @@
 
 [**IL-PCSR:**](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR) A dataset of Indian legal case **queries** annotated with relevant **statutes** and **precedents**, plus candidate pools of statutory provisions and precedent judgments for retrieval research.
 
+## Quick Links
+- [**IL-PCSR Dataset**](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR)
+- [**Trained Ensemble Model Weights**](https://huggingface.co/Exploration-Lab/IL-PCSR-Models)
 
 ## Project Overview
 
@@ -135,7 +138,12 @@ Initial retrieval using BM25 algorithm for both precedents and sections.
 - Incorporates document structure and relationships
 - Trained on BM25-generated negative samples
 
-### 3. Two-Stage LLM Prompting
+### 3. Dynamic Alpha Weighting
+- Hybrid model that combines lexical (BM25) and semantic (Para-GNN) scores
+- Uses a FFNN to dynamically decide weights for lexical and semantic components
+- Trained models available at [HuggingFace](https://huggingface.co/Exploration-Lab/IL-PCSR-Models).
+
+### 4. Two-Stage LLM Prompting
 - First stage: Initial relevance assessment
 - Second stage: Refined ranking and relationship analysis
 
