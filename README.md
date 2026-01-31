@@ -1,5 +1,7 @@
 # IL-PCSR: Legal Corpus for Prior Case and Statute Retrieval
 
+Raw code present here : https://drive.google.com/drive/folders/1H0ftzSQbVFQp_LmP-7pS_hcS158qsLvH?usp=drive_link
+
 [**IL-PCSR:**](https://huggingface.co/datasets/Exploration-Lab/IL-PCSR) A dataset of Indian legal case **queries** annotated with relevant **statutes** and **precedents**, plus candidate pools of statutory provisions and precedent judgments for retrieval research.
 
 ## Quick Links
